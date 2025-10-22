@@ -164,7 +164,7 @@ print(best_practices)
 # PRACTICAL EXAMPLE: Collection Management Workflow
 # =============================================================================
 print("=" * 60)
-print("🔄 PRACTICAL WORKFLOW EXAMPLE")
+print("PRACTICAL WORKFLOW EXAMPLE")
 print("=" * 60)
 
 # 1. Check if collection exists

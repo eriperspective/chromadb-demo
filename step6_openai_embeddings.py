@@ -16,7 +16,7 @@ print("=" * 70)
 # =============================================================================
 # UNDERSTANDING EMBEDDING MODELS
 # =============================================================================
-print("\n🧠 What are Embedding Models?")
+print("\nWhat are Embedding Models?")
 print("-" * 70)
 
 explanation = """
@@ -35,7 +35,7 @@ print(explanation)
 # =============================================================================
 # DEFAULT MODEL vs OPENAI MODEL
 # =============================================================================
-print("📊 Comparison: Default vs OpenAI Models")
+print("Comparison: Default vs OpenAI Models")
 print("-" * 70)
 
 comparison = """
@@ -55,7 +55,7 @@ print(comparison)
 # =============================================================================
 # CHECKING FOR OPENAI API KEY
 # =============================================================================
-print("\n🔑 Checking for OpenAI API Key")
+print("\nChecking for OpenAI API Key")
 print("-" * 70)
 
 # Check if OpenAI API key is set as an environment variable
@@ -150,7 +150,7 @@ else:
 # UNDERSTANDING TOKENS (for OpenAI billing)
 # =============================================================================
 if openai_api_key:
-    print("\n💰 Understanding Tokens and Cost")
+    print("\nUnderstanding Tokens and Cost")
     print("-" * 70)
     
     try:
@@ -220,7 +220,7 @@ print(best_practices)
 # COMPARISON DEMO (if both models available)
 # =============================================================================
 print("=" * 70)
-print("🔬 DEMONSTRATION")
+print("DEMONSTRATION")
 print("=" * 70)
 
 # Create a collection with default embeddings for comparison

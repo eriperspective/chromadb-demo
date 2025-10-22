@@ -4,7 +4,7 @@ Here is the complete guide, integrating all the sections we've discussed.
 
 -----
 
-## 🚀 Your First Steps with ChromaDB: A Beginner's Guide
+## Your First Steps with ChromaDB: A Beginner's Guide
 
 Welcome to your first guide to **ChromaDB**\! Think of ChromaDB as a smart filing cabinet for your information. Instead of just searching for exact words, it understands the *meaning* or *context* behind your text. This is incredibly powerful and is the technology behind many modern AI applications.
 
@@ -12,7 +12,7 @@ In this guide, we'll learn how to use ChromaDB to store and search through a com
 
 -----
 
-### 🛠️ Step 1: Installation
+### Step 1: Installation
 
 First things first, let's get ChromaDB installed. We'll use pip, Python's package installer.
 
@@ -32,7 +32,7 @@ pip install chromadb
 
 -----
 
-### 🗂️ Step 2: Creating Your First "Filing Cabinet" (Collection)
+### Step 2: Creating Your First "Filing Cabinet" (Collection)
 
 Now that ChromaDB is installed, we need to initialize it and create a **collection**. A collection is like a single drawer in your filing cabinet dedicated to a specific topic—in our case, company travel policies.
 
@@ -48,7 +48,7 @@ collection = client.get_or_create_collection(name="travel_policies")
 
 -----
 
-### 📄 Step 3: Managing Your Data (CRUD on Data Points)
+### Step 3: Managing Your Data (CRUD on Data Points)
 
 As policies change, you'll need to **C**reate, **R**ead, **U**pdate, and **D**elete data points. This is the most common workflow in ChromaDB.
 
@@ -129,7 +129,7 @@ collection.delete(ids=["train_policy_01"])
 
 -----
 
-### 💾 Step 4: Saving Your Work (Persistent Database)
+### Step 4: Saving Your Work (Persistent Database)
 
 By default, `chromadb.Client()` creates an "in-memory" database, which is erased when your program finishes. To save your data permanently, use the **`PersistentClient`**.
 
@@ -152,7 +152,7 @@ p_collection.add(
 
 -----
 
-### 🗂️ Step 5: Managing Your Collections (CRUD on Collections)
+### Step 5: Managing Your Collections (CRUD on Collections)
 
 You can also manage the collections themselves.
 
@@ -190,7 +190,7 @@ client.delete_collection(name="legacy_travel_policies")
 
 -----
 
-### 🧠 Step 6: Advanced - Using OpenAI's Embedding Model
+### Step 6: Advanced - Using OpenAI's Embedding Model
 
 While Chroma's default model is great, you can integrate more powerful models like those from **OpenAI**. Let's use the `text-embedding-3-small` model.
 
